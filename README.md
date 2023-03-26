@@ -5,6 +5,26 @@ s4 is a simple, secure and reliable personal storage solution with zero-configur
 
 s4 also includes optional first-class support for real-time docker volume replication to enable Fractal Network [application portability](https://blog.fractalnetworks.co/portable-self-hosted-applications-2/).
 
+## Installation
+1. Clone the s4 project locally:
+```
+[~/]$ git clone https://github.com/fractalnetworksco/selfhosted-storage.git
+```
+
+2. Install s4 into your system (make must be installed) :
+```
+[~/]$  cd selfhosted-storage/
+[~/]$  make install
+```
+
+3. What you shoud see if s4 is correctly installed:
+```
+[~/]$ s4
+usage: s4.sh <subcommand> <args>
+```
+
+If the last command is showing this message, you can follow the next steps.
+
 ## Quick Start
 1. Create an s4 volume from an existing folder:
 ```
